@@ -1,0 +1,9 @@
+{
+    "apps": [{
+        "name": "opensoursist-api",
+        "script": "./lib/app.js",
+        "error_file": "./logs/error.log",
+        "out_file": "./logs/out.log",
+        "watch": true
+    }]
+}
