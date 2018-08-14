@@ -18,6 +18,6 @@ before_deploy:
 deploy:
   provider: script
   skip_cleanup: true
-  script: ssh xcatliu@134.175.177.132 "cd /srv/api && git pull && npm i && npm start"
+  script: ssh xcatliu@134.175.177.132 "source ~/.zshrc && cd /srv/api && git pull && npm i && npm start"
   on:
     branch: master
